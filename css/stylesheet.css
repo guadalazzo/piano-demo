@@ -1,0 +1,40 @@
+* {
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+
+.piano {
+  background: url(https://static1.squarespace.com/static/55c69da4e4b097ba411f271d/t/56824e9ce0327c1884fe991b/1451380473783/black-gradient-wallpaper-1024x640.jpg?format=1500w);
+  width: 60%;
+  height: 300px;
+  display: inline-block;
+  border-radius: 5%; }
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  height: 400px;
+  border-radius: 10%;
+  width: 100%; }
+
+li {
+  float: left;
+  border-radius: 10%;
+  border: 2px black solid; }
+
+.white {
+  width: 50px;
+  height: 200px;
+  background-color: white; }
+
+.black {
+  width: 25px;
+  height: 100px;
+  background-color: black; }
+
+li:active {
+  background-color: grey; }
+
+/*# sourceMappingURL=stylesheet.css.map */
